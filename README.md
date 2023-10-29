@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Projeto Pokedex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Gif](./src/img/overview.gif)
 
-## Available Scripts
+Este projeto possui apenas duas páginas que podem ser acessadas pelo usuário, contendo as seguintes funcionalidades:
 
-In the project directory, you can run:
+- A primeira página(Home) exibe uma lista completa de todos os pokémons com seus nome e um sprie animado.
+- Quando um pokémon é clicado, o usuário é direcionado a sua página de informações(profile).
+- A aplicação também possui um botão no canto superior direito que serve para alterar entre os temas claro e escuro.
 
-### `npm start`
+## Design
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Mobile Design
+![Home Mobile](./src/img/MobileView.png)
+![Profile Mobile](./src/img/profileMobileView.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Feito com
 
-### `npm test`
+<div align="center">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%2320232a.svg?style=for-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-### `npm run build`
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Construção do projeto
+Para este projeto, as principais tecnologias e ferramentas usadas foram:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A biblioteca styled-components foi utilizada em conjunto com a font-awesome para toda a estilização de ícones e elementos do projeto visando um código limpo.
+- A navegação foi feita através da biblioteca react-router-dom.
+- Vite para uma criação rápida e efetiva da aplicação React.
+- Axios para realizar requisições na api com o mínimo de código possível.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalação
 
-### `npm run eject`
+Após clonar, baixar ou fazer um fork, utilize o comando abaixo:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```shell
+npm run dev
+```
+ Logo em seguida basta apertar a tecla "O" para abrir o projeto em seu dispositivo!
