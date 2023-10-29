@@ -38,6 +38,7 @@ Para este projeto, as principais tecnologias e ferramentas usadas foram:
 Após clonar, baixar ou fazer um fork, utilize o comando abaixo:
 
 ```shell
+npm install
 npm run dev
 ```
  Logo em seguida basta apertar a tecla "O" para abrir o projeto em seu dispositivo!
